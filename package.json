@@ -1,7 +1,7 @@
 {
   "name": "shebang-regex",
   "version": "1.0.0",
-  "description": "Regular expression for matching a shebang",
+  "description": "Regular expression for matching a shebang line",
   "license": "MIT",
   "repository": "sindresorhus/shebang-regex",
   "author": {
@@ -24,7 +24,8 @@
     "regexp",
     "shebang",
     "match",
-    "test"
+    "test",
+    "line"
   ],
   "devDependencies": {
     "ava": "0.0.4"
