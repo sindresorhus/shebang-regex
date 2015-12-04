@@ -1,9 +1,7 @@
-'use strict';
-var test = require('ava');
-var shebangRegex = require('./');
+import test from 'ava';
+import x from './';
 
-test(function (t) {
-	t.assert(shebangRegex.test('#!/usr/bin/env node\nconsole.log("unicorns");'));
-	t.assert('#!/usr/bin/env node'.match(shebangRegex)[1] === '/usr/bin/env node');
-	t.end();
+test(t => {
+	t.true(x.test('#!/usr/bin/env node\nconsole.log("unicorns");'));
+	t.is(x.exec('#!/usr/bin/env node')[1], '/usr/bin/env node');
 });

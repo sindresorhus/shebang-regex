@@ -13,8 +13,8 @@ $ npm install --save shebang-regex
 ## Usage
 
 ```js
-var shebangRegex = require('shebang-regex');
-var str = '#!/usr/bin/env node\nconsole.log("unicorns");';
+const shebangRegex = require('shebang-regex');
+const str = '#!/usr/bin/env node\nconsole.log("unicorns");';
 
 shebangRegex.test(str);
 //=> true
