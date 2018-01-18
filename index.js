@@ -1,2 +1,2 @@
 'use strict';
-module.exports = /^#!(.*)/;
+module.exports = /^#![ \t]*([^\s]+)[ \t]*([^\s]*)?.*$/m;

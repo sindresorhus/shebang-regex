@@ -23,7 +23,10 @@ shebangRegex.exec(str)[0];
 //=> '#!/usr/bin/env node'
 
 shebangRegex.exec(str)[1];
-//=> '/usr/bin/env node'
+//=> '/usr/bin/env'
+
+shebangRegex.exec(str)[2];
+//=> 'node'
 ```
 
 
