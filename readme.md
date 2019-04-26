@@ -6,7 +6,7 @@
 ## Install
 
 ```
-$ npm install --save shebang-regex
+$ npm install shebang-regex
 ```
 
 
@@ -14,19 +14,19 @@ $ npm install --save shebang-regex
 
 ```js
 const shebangRegex = require('shebang-regex');
-const str = '#!/usr/bin/env node\nconsole.log("unicorns");';
+const string = '#!/usr/bin/env node\nconsole.log("unicorns");';
 
-shebangRegex.test(str);
+shebangRegex.test(string);
 //=> true
 
-shebangRegex.exec(str)[0];
+shebangRegex.exec(string)[0];
 //=> '#!/usr/bin/env node'
 
-shebangRegex.exec(str)[1];
+shebangRegex.exec(string)[1];
 //=> '/usr/bin/env node'
 ```
 
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)
