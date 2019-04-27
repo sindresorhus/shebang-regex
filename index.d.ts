@@ -4,6 +4,7 @@ Regular expression for matching a [shebang](https://en.wikipedia.org/wiki/Sheban
 @example
 ```
 import shebangRegex = require('shebang-regex');
+
 const string = '#!/usr/bin/env node\nconsole.log("unicorns");';
 
 shebangRegex.test(string);

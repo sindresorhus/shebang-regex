@@ -14,6 +14,7 @@ $ npm install shebang-regex
 
 ```js
 const shebangRegex = require('shebang-regex');
+
 const string = '#!/usr/bin/env node\nconsole.log("unicorns");';
 
 shebangRegex.test(string);
