@@ -1,4 +1,4 @@
-# shebang-regex [![Build Status](https://travis-ci.org/sindresorhus/shebang-regex.svg?branch=master)](https://travis-ci.org/sindresorhus/shebang-regex)
+# shebang-regex
 
 > Regular expression for matching a [shebang](https://en.wikipedia.org/wiki/Shebang_(Unix)) line
 
