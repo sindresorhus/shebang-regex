@@ -1,5 +1,5 @@
 import test from 'ava';
-import shebangRegex from '.';
+import shebangRegex from './index.js';
 
 test('main', t => {
 	t.true(shebangRegex.test('#!/usr/bin/env node\nconsole.log("unicorns");'));

@@ -3,7 +3,7 @@ Regular expression for matching a [shebang](https://en.wikipedia.org/wiki/Sheban
 
 @example
 ```
-import shebangRegex = require('shebang-regex');
+import shebangRegex from 'shebang-regex';
 
 const string = '#!/usr/bin/env node\nconsole.log("unicorns");';
 
@@ -19,4 +19,4 @@ shebangRegex.exec(string)[1];
 */
 declare const shebangRegex: RegExp;
 
-export = shebangRegex;
+export default shebangRegex;

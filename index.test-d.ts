@@ -1,4 +1,4 @@
 import {expectType} from 'tsd';
-import shebangRegex = require('.');
+import shebangRegex from './index.js';
 
 expectType<RegExp>(shebangRegex);

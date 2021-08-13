@@ -2,18 +2,16 @@
 
 > Regular expression for matching a [shebang](https://en.wikipedia.org/wiki/Shebang_(Unix)) line
 
-
 ## Install
 
 ```
 $ npm install shebang-regex
 ```
 
-
 ## Usage
 
 ```js
-const shebangRegex = require('shebang-regex');
+import shebangRegex from 'shebang-regex';
 
 const string = '#!/usr/bin/env node\nconsole.log("unicorns");';
 
@@ -26,7 +24,6 @@ shebangRegex.exec(string)[0];
 shebangRegex.exec(string)[1];
 //=> '/usr/bin/env node'
 ```
-
 
 ---
 
